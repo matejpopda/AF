@@ -1,0 +1,112 @@
+\documentclass[../main.tex]{subfiles}
+\graphicspath{{\subfix{../images/}}}
+\begin{document}
+
+
+Lorentzova síla
+\begin{equation}
+    \vec{F} = q(\vec{E} + \vec{v} \times \vec{B})
+\end{equation}
+
+\subsection{Částice co proletá spektroskopem}
+Působí na ni elektrické pole. A zatím žádne magnetické.
+
+\begin{equation}
+    F_y = ma_y = qE 
+\end{equation}
+
+Electron je pak odkloněn o 
+
+\begin{equation}
+    \frac{v_y}{v_x} = \tan \theta = \frac{v_y}{v_x} = \frac{a_y t}{v_0} = \frac{q E}{m} \frac{l}{v_0^2}
+\end{equation}
+
+Relativní hmotnost lze pak spočítat jako 
+\begin{equation}
+    \frac{q }{m} = \frac{v_0^2}{E l} \tan \theta 
+\end{equation}
+
+Počítáme příklad 3.2.
+
+Elektrony jsou urychleny 1000V.
+
+Práce která na ně působí je 
+\begin{equation}
+    W = \int_{0}^{l} \vec{F}\cdot d\vec{x} = \int_{0}^{l} e \frac{U}{l} dx = e U 
+\end{equation}
+To v našem případě vyjde jako 1000eV.
+
+\begin{remark}
+    To je malé oproti klidové energii elektronu, to je $m_e c^2 = 511 keV$. 
+    Protony ji mají větší asi o 1800. 
+    Nejde tedy o relativistický jev.
+\end{remark}
+
+Jejich rychlost pak získáváme z 
+\begin{equation}
+    W = E_k = \frac{1}{2} m v^2
+\end{equation}
+
+Počítáme pro vodík.
+\begin{equation}
+    v_H = \sqrt{\frac{2W}{m_H}}
+\end{equation}
+
+Parametry máme jako 
+\begin{equation}
+    l = 5 cm
+\end{equation}
+
+\begin{equation}
+    B = 0,05 T
+\end{equation}
+
+Navíc jednoduše víme 
+\begin{equation}
+    l = v_H t_H \implies t_H = \frac{l}{v_H}
+\end{equation}
+
+Síla působící na částici je
+\begin{equation}
+    F_H = e (v_H B)
+\end{equation}
+
+Newton 
+\begin{equation}
+    m_H \frac{dv}{dt} = F_h
+\end{equation}
+
+\begin{equation}
+    v_t = \frac{F_H}{m_H} t_H = \frac{F_H}{m_H} \frac{l}{v_H}
+\end{equation}
+
+Částice je odkloněná o 
+\begin{equation}
+    \tan \theta = \frac{v_t}{v_H} = \frac{F_H}{m_H} \frac{l}{v_H^2} = \frac{ e l B}{m_v v_H} =  \frac{e l B}{m_H \sqrt{\frac{2 W }{m_H}}}
+\end{equation}
+
+
+Celkem dostaneme 
+\begin{equation}
+    \tan \theta = \frac{e l B}{\sqrt{2 m_H W}} \approx 0.55
+\end{equation}
+
+Na desce vzdálené 25 cm pak dostaneme
+\begin{equation}
+    y = \tan \theta * 25 cm \approx 14 cm
+\end{equation}
+Což je správný výsledek. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
